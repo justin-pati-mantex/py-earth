@@ -48,7 +48,7 @@ cdef class BasisFunction:
 
     def _get_root(BasisFunction self):
         return self.parent._get_root()
-
+le "/home/jupa/py-earth/setup.py", line 165, in <module>     setup_package()   File "/home/jupa/py-earth/setup.py", line 161, in setup_package     setup_args['ext_modules'] = get_ext_modules()
     def _getstate(BasisFunction self):
         result = {'pruned': self.pruned,
                   'children': self.children,
